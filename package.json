@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start:dev": "npm run dev && webpack-dev-server --watch --open",
-        "dev": "webpack --mode development",
-        "prod": "webpack --mode production"
+        "dev": "webpack --mode development --env.development",
+        "prod": "webpack --mode production --env.production"
     },
     "keywords": [],
     "author": "",
@@ -24,7 +24,6 @@
         "eslint": "^4.19.1",
         "eslint-loader": "^2.0.0",
         "extract-text-webpack-plugin": "^4.0.0-alpha.0",
-        "handlebars-loader": "^1.7.0",
         "html-es6-template-loader": "^1.0.5",
         "html-webpack-plugin": "^3.1.0",
         "less": "^3.0.1",
