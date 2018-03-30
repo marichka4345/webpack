@@ -1,0 +1,12 @@
+@import "./test.css";
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3em;
+        color: blue;
+    }
+}
